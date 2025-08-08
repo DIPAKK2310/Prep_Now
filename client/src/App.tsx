@@ -1,12 +1,16 @@
+import { Route, Routes } from "react-router-dom"
 import "./index.css"
+import Home from "./pages/Home"
+import Interview from "./pages/Interview"
+import Feedback from "./pages/Feedback"
 
 const App = () => {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
-    <h1 className="text-4xl font-bold text-blue-600">
-      AI Interview Platform (Vapi + Gemini)
-    </h1>
-  </div>
+   <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/interview" element={<Interview/>}/>
+    <Route path="/feedback" element={<Feedback/>}/>
+   </Routes>
   )
 }
 
