@@ -3,6 +3,7 @@ import "./index.css"
 import Home from "./pages/Home"
 import Interview from "./pages/Interview"
 import Feedback from "./pages/Feedback"
+import Sign_In from "./pages/Sign_In"
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
     <Route path="/" element={<Home/>}/>
     <Route path="/interview" element={<Interview/>}/>
     <Route path="/feedback" element={<Feedback/>}/>
+    <Route path="/sign-in" element={<Sign_In/>}/>
+
    </Routes>
   )
 }
