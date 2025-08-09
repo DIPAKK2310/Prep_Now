@@ -86,7 +86,7 @@ Edit
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/prepnow-ai.git
+git clone https://github.com/DIPAKK2310/Prep_Now.git
 cd prepnow-ai
 2️⃣ Setup Environment
 For Backend (/server)
