@@ -87,16 +87,20 @@ Edit
 
 ```bash
 git clone https://github.com/DIPAKK2310/Prep_Now.git
+```
+```ts
 cd prepnow-ai
 2️⃣ Setup Environment
 For Backend (/server)
-bash
-Copy
-Edit
+```
+```bash
 cd server
 npm install
+```
+```ts
 touch .env
 Add this to .env:
+```
 
 ini
 Copy
